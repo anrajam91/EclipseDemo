@@ -1,0 +1,25 @@
+Assignment 5:
+==============
+ String str3 = new String("Kutty");
+		 String str4 = new String("Kutty");
+		 
+		 if(str3==str4) {
+			 System.out.println(" Same text");
+		 }
+		 else
+			 System.out.println("Diff text");
+		 
+		 System.out.println("***");
+👆👆 Justify the above output
+
+
+
+Justification:
+
+Above program prints "Diff Text" as output. The reason is , 
+1) when we use == operator to compare strings, it will compare memory locations of two strings. 
+2) When we use new operator to declare strings, it will create new memory space for each string eventhough the variable value is same.
+
+Suggestions:
+1) use .equals to compare two string values.
+2) If we declare as String <variable_name> = "<value>";   , it will reference the same memory location if the same string value is declared for other variable.
