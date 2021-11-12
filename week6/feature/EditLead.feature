@@ -1,4 +1,5 @@
 Feature: Test Edit Lead functionality in LeafTaps
+@functional @sanity
 Scenario Outline: Edit the existing Lead details
 Given Enter <phoneNum> to find leads
 And Click on Find Leads

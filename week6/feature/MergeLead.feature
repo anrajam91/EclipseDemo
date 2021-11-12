@@ -1,4 +1,5 @@
 Feature: Test Merge Lead functionality in LeafTaps
+@regression
 Scenario Outline: Merge two existing Lead IDs
 Given Click Merge Leads Link
 And Select a leads<leadName><dstnLeadName> to merge

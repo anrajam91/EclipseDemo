@@ -1,4 +1,5 @@
 Feature: Test Create Lead functionality in LeafTaps
+@functional @smoke
 Scenario Outline: Create new Lead
 Given Click Create Lead button
 And Enter user primary details <compName>,<firstName>,<lastName>,<phoneNum>

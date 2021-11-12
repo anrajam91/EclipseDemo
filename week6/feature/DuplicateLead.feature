@@ -1,5 +1,6 @@
 Feature: Test Edit Lead functionality in LeafTaps
-Scenario Outline: Edit the existing Lead details
+@functional @regression @smoke
+Scenario Outline: Duplicate the existing Lead details
 Given Enter <phoneNum> to find leads
 And Click on Find Leads
 And Select a Lead from list

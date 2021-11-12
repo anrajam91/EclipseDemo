@@ -63,6 +63,7 @@ public class StepDefinitions extends BaseClass {
 	public void error_message() {
 		System.out.println("Error message displayed");
 		driver.close();
+	
 	}
 
 	@Given("Enter username as {string} and password as {string}")

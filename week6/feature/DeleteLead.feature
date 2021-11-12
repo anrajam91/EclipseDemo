@@ -1,4 +1,5 @@
 Feature: Test Delete Lead functionality in LeafTaps
+@functional
 Scenario Outline: Delete the existing Lead
 Given Enter <phoneNum> to find leads
 And Click on Find Leads
